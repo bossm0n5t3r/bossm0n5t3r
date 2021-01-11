@@ -15,4 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!--
 ![bossm0n5t3r's github stats](https://github-readme-stats.vercel.app/api?username=bossm0n5t3r&show_icons=true&theme=highcontrast)
+-->
+
+![bossm0n5t3r's github metrics](https://github.com/bossm0n5t3r/bossm0n5t3r/blob/master/github-metrics.svg)
