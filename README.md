@@ -4,7 +4,7 @@
 val bossm0n5t3r = developer {
     about {
         name = "Ji-Hoon Kim"
-        company = SOCAR
+        // company = SOCAR
         role = Backend
     }
     tech("Kotlin", "Spring Boot")
