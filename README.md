@@ -8,7 +8,7 @@ val bossm0n5t3r = developer {
     }
     tech("Kotlin", "Spring")
     links {
-        blog = "https://bossm0n5t3r.github.io/"
+        blog = TBA
     }
 }
 ```
