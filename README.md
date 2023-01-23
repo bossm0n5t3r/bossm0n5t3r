@@ -12,3 +12,7 @@ val bossm0n5t3r = developer {
     }
 }
 ```
+
+---
+
+![](https://raw.githubusercontent.com/bossm0n5t3r/bossm0n5t3r/output/github-contribution-grid-snake.svg)
