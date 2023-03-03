@@ -6,7 +6,11 @@ val bossm0n5t3r = developer {
         name = "Ji-Hoon Kim"
         role = Backend
     }
-    tech("Kotlin", "Spring")
+    tech(
+        "Kotlin",
+        "Spring",
+        "Testing",
+    )
     links {
         blog = TBA
     }
