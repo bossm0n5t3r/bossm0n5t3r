@@ -42,6 +42,9 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://zhoon.vercel.app/index.xml"
+          committer_username: "bossm0n5t3r"
+          committer_email: "bossm0n5t3r@gmail.com"
+          template: "<tr><td>$title</td><td>https://zhoon.vercel.app/$url</td></tr>"
 
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3

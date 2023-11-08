@@ -19,10 +19,12 @@ val bossm0n5t3r = developer {
 
 ---
 
-### Blog posts
+### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<table>
+  <tr><th>Title</th><th>Link</th></tr>
+  <!-- BLOG-POST-LIST:START --><!-- BLOG-POST-LIST:END -->
+</table>
 
 ---
 
