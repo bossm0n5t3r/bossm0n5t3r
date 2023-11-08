@@ -13,6 +13,9 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - uses: lowlighter/metrics@latest
         if: ${{ false }}
         with:
