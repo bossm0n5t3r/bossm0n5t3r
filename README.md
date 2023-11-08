@@ -19,5 +19,12 @@ val bossm0n5t3r = developer {
 
 ---
 
+### Blog posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
 ![](https://raw.githubusercontent.com/bossm0n5t3r/bossm0n5t3r/output/github-snake.svg)
 ![](https://streak-stats.demolab.com?user=bossm0n5t3r)
