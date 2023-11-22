@@ -23,7 +23,7 @@ val bossm0n5t3r = developer {
 
 <table>
   <tr><th>Title</th><th>Link</th></tr>
-  <!-- BLOG-POST-LIST:START --><tr><td>Bucket4j 로 API Rate Limiting 를 구현해보자</td><td>https://zhoon.vercel.app/posts/spring-boot-bucket4j/</td></tr><tr><td>AWESOME 하게 JSON 검증해보자</td><td>https://zhoon.vercel.app/posts/awesome-json-format-checker/</td></tr><tr><td>첫 번째 Spring Boot 이슈 및 후기</td><td>https://zhoon.vercel.app/posts/my-first-spring-boot-issue/</td></tr><tr><td>텍스트의 언어를 감지하는 방법</td><td>https://zhoon.vercel.app/posts/text-language-detection/</td></tr><tr><td>[Kotlin] 한 줄로 swap 하는 방법</td><td>https://zhoon.vercel.app/posts/one-line-swap-algorithm-in-kotlin/</td></tr><!-- BLOG-POST-LIST:END -->
+  <!-- BLOG-POST-LIST:START --><tr><td>번잉 &lpar;burn-eng&rpar; 🔥</td><td>https://zhoon.vercel.app/projects/burn-eng/</td></tr><tr><td>Bucket4j 로 API Rate Limiting 를 구현해보자</td><td>https://zhoon.vercel.app/posts/spring-boot-bucket4j/</td></tr><tr><td>AWESOME 하게 JSON 검증해보자</td><td>https://zhoon.vercel.app/posts/awesome-json-format-checker/</td></tr><tr><td>첫 번째 Spring Boot 이슈 및 후기</td><td>https://zhoon.vercel.app/posts/my-first-spring-boot-issue/</td></tr><tr><td>텍스트의 언어를 감지하는 방법</td><td>https://zhoon.vercel.app/posts/text-language-detection/</td></tr><!-- BLOG-POST-LIST:END -->
 </table>
 
 ---
