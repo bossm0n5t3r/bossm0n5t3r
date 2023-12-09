@@ -12,7 +12,7 @@ val bossm0n5t3r = developer {
         "Testing",
     )
     links {
-        blog = "https://zhoon.vercel.app/"
+        blog = "https://bossm0n5t3r.github.io/"
     }
 }
 ```
