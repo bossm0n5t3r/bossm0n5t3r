@@ -44,7 +44,6 @@ jobs:
           feed_list: "https://bossm0n5t3r.github.io/index.xml"
           committer_username: "bossm0n5t3r"
           committer_email: "bossm0n5t3r@gmail.com"
-          template: "<tr><td>[$title]($url)</td></tr>"
 
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
