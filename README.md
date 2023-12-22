@@ -23,7 +23,7 @@ val bossm0n5t3r = developer {
 
 <table>
   <tr><th>Title</th></tr>
-  <!-- BLOG-POST-LIST:START --><!-- BLOG-POST-LIST:END -->
+  <!-- BLOG-POST-LIST:START --><tr><td>[[Kotlin Coroutines] 5장. 코루틴: 언어 차원에서의 지원 vs 라이브러리](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter05/)</td></tr><tr><td>[[Kotlin Coroutines] 4장. 코루틴의 실제 구현](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter04/)</td></tr><tr><td>[[Kotlin Coroutines] 3장. 중단은 어떻게 작동할까?](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter03/)</td></tr><tr><td>[[Kotlin Coroutines] 2장. 시퀀스 빌더](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter02/)</td></tr><tr><td>[[Kotlin Coroutines] 1장. 코틀린 코루틴을 배워야 하는 이유](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter01/)</td></tr><!-- BLOG-POST-LIST:END -->
 </table>
 
 ---
