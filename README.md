@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Article Weekly, Issue 2](https://bossm0n5t3r.github.io/posts/article-weekly-2/)
 - [[Kotlin Coroutines] 10장. 예외 처리](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter10/)
 - [[Kotlin Coroutines] 9장. 취소](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter09/)
 - [Article Weekly, Issue 1](https://bossm0n5t3r.github.io/posts/article-weekly-1/)
 - [[Kotlin Coroutines] 8장. 잡과 자식 코루틴 기다리기](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter08/)
-- [[Kotlin Coroutines] 7장. 코루틴 컨텍스트](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter07/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
