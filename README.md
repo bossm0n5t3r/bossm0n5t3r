@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [[Kotlin Coroutines] 17장. 셀렉트](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter17/)
+- [[Kotlin Coroutines] 16장. 채널](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter16/)
 - [Base64 인코딩 길이 계산하기](https://bossm0n5t3r.github.io/posts/calculate-base64-encoding-length/)
 - [Article Weekly, Issue 6](https://bossm0n5t3r.github.io/posts/article-weekly-6/)
 - [[Kotlin Coroutines] 15장. 코틀린 코루틴 테스트하기](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter15/)
-- [[Kotlin Coroutines] 14장. 공유 상태로 인한 문제](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter14/)
-- [[Kotlin Coroutines] 13장. 코루틴 스코프 만들기](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter13/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
