@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [[Kotlin Coroutines] 22장. 플로우 생존주기 함수](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter22/)
+- [[Kotlin Coroutines] 21장. 플로우 만들기](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter21/)
 - [Article Weekly, Issue 8](https://bossm0n5t3r.github.io/posts/article-weekly-8/)
 - [[Kotlin Coroutines] 20장. 플로우의 실제 구현](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter20/)
 - [[Kotlin Coroutines] 19장. 플로우란 무엇인가?](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter19/)
-- [[Kotlin Coroutines] 18장. 핫 데이터 소스와 콜드 데이터 소스](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter18/)
-- [Article Weekly, Issue 7](https://bossm0n5t3r.github.io/posts/article-weekly-7/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
