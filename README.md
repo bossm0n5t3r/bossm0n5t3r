@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [[Clean Architecture] 14장. 컴포넌트 결합](https://bossm0n5t3r.github.io/books/clean-architecture-chapter14/)
+- [[Clean Architecture] 13장. 컴포넌트 응집도](https://bossm0n5t3r.github.io/books/clean-architecture-chapter13/)
+- [[Kotlin Coroutines] 25장. 플로우 테스트하기](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter25/)
+- [[Kotlin Coroutines] 24장. 공유 플로우와 상태 플로우](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter24/)
 - [Article Weekly, Issue 12](https://bossm0n5t3r.github.io/posts/article-weekly-12/)
-- [Article Weekly, Issue 11](https://bossm0n5t3r.github.io/posts/article-weekly-11/)
-- [Article Weekly, Issue 10](https://bossm0n5t3r.github.io/posts/article-weekly-10/)
-- [[Clean Architecture] 12장. 컴포넌트](https://bossm0n5t3r.github.io/books/clean-architecture-chapter12/)
-- [[Clean Architecture] 11장. DIP: 의존성 역전 원칙](https://bossm0n5t3r.github.io/books/clean-architecture-chapter11/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
