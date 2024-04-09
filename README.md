@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
-- [Article Weekly, Issue 14](https://bossm0n5t3r.github.io/posts/article-weekly-14/)
-- [Article Weekly, Issue 13](https://bossm0n5t3r.github.io/posts/article-weekly-13/)
-- [[Clean Architecture] 14장. 컴포넌트 결합](https://bossm0n5t3r.github.io/books/clean-architecture-chapter14/)
-- [[Clean Architecture] 13장. 컴포넌트 응집도](https://bossm0n5t3r.github.io/books/clean-architecture-chapter13/)
-- [[Kotlin Coroutines] 25장. 플로우 테스트하기](https://bossm0n5t3r.github.io/books/kotlin-coroutines-chapter25/)
+- [[Clean Architecture] 21장. 소리치는 아키텍처](https://bossm0n5t3r.github.io/books/clean-architecture-chapter21/)
+- [[Clean Architecture] 20장. 업무 규칙](https://bossm0n5t3r.github.io/books/clean-architecture-chapter20/)
+- [[Clean Architecture] 19장. 정책과 수준](https://bossm0n5t3r.github.io/books/clean-architecture-chapter19/)
+- [[Clean Architecture] 18장. 경계 해부학](https://bossm0n5t3r.github.io/books/clean-architecture-chapter18/)
+- [[Clean Architecture] 17장. 경계: 선 긋기](https://bossm0n5t3r.github.io/books/clean-architecture-chapter17/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
