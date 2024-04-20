@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
-- [[Clean Architecture] 21장. 소리치는 아키텍처](https://bossm0n5t3r.github.io/books/clean-architecture-chapter21/)
-- [[Clean Architecture] 20장. 업무 규칙](https://bossm0n5t3r.github.io/books/clean-architecture-chapter20/)
-- [[Clean Architecture] 19장. 정책과 수준](https://bossm0n5t3r.github.io/books/clean-architecture-chapter19/)
-- [[Clean Architecture] 18장. 경계 해부학](https://bossm0n5t3r.github.io/books/clean-architecture-chapter18/)
-- [[Clean Architecture] 17장. 경계: 선 긋기](https://bossm0n5t3r.github.io/books/clean-architecture-chapter17/)
+- [Article Weekly, Issue 16](https://bossm0n5t3r.github.io/posts/article-weekly-16/)
+- [[Clean Architecture] 25장. 계층과 경계](https://bossm0n5t3r.github.io/books/clean-architecture-chapter25/)
+- [[Clean Architecture] 24장. 부분적 경계](https://bossm0n5t3r.github.io/books/clean-architecture-chapter24/)
+- [[Clean Architecture] 23장. 프레젠터와 험블 객체](https://bossm0n5t3r.github.io/books/clean-architecture-chapter23/)
+- [[Clean Architecture] 22장. 클린 아키텍처](https://bossm0n5t3r.github.io/books/clean-architecture-chapter22/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
