@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [[Elixir] Elixir 프로젝트에 의존성 설치하기](https://bossm0n5t3r.github.io/posts/adding-dependencies-in-elixir/)
+- [[Elixir] Task &lpar;async, await&rpar;](https://bossm0n5t3r.github.io/posts/elixir-task/)
 - [Article Weekly, Issue 16](https://bossm0n5t3r.github.io/posts/article-weekly-16/)
 - [[Clean Architecture] 25장. 계층과 경계](https://bossm0n5t3r.github.io/books/clean-architecture-chapter25/)
 - [[Clean Architecture] 24장. 부분적 경계](https://bossm0n5t3r.github.io/books/clean-architecture-chapter24/)
-- [[Clean Architecture] 23장. 프레젠터와 험블 객체](https://bossm0n5t3r.github.io/books/clean-architecture-chapter23/)
-- [[Clean Architecture] 22장. 클린 아키텍처](https://bossm0n5t3r.github.io/books/clean-architecture-chapter22/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
