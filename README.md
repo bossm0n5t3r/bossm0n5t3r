@@ -22,7 +22,7 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
-- [Article Weekly 21](https://bossm0n5t3r.github.io/posts/article-weekly-21/)
+- [Article Weekly, Issue 21](https://bossm0n5t3r.github.io/posts/article-weekly-21/)
 - [Article Weekly, Issue 20](https://bossm0n5t3r.github.io/posts/article-weekly-20/)
 - [Use Elvis Operator Continuously in Kotlin](https://bossm0n5t3r.github.io/posts/use-elvis-operator-continuously-in-kotlin/)
 - [[Clean Architecture] 34장. 빠져 있는 장](https://bossm0n5t3r.github.io/books/clean-architecture-chapter34/)
