@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Article Weekly, Issue 24](https://bossm0n5t3r.github.io/posts/article-weekly-24/)
 - [Article Weekly, Issue 23](https://bossm0n5t3r.github.io/posts/article-weekly-23/)
 - [Article Weekly, Issue 22](https://bossm0n5t3r.github.io/posts/article-weekly-22/)
 - [Article Weekly, Issue 21](https://bossm0n5t3r.github.io/posts/article-weekly-21/)
 - [Article Weekly, Issue 20](https://bossm0n5t3r.github.io/posts/article-weekly-20/)
-- [Use Elvis Operator Continuously in Kotlin](https://bossm0n5t3r.github.io/posts/use-elvis-operator-continuously-in-kotlin/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
