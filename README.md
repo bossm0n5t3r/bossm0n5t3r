@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Article Weekly, Issue 33](https://bossm0n5t3r.github.io/posts/article-weekly-33/)
 - [Article Weekly, Issue 32](https://bossm0n5t3r.github.io/posts/article-weekly-32/)
 - [Article Weekly, Issue 31](https://bossm0n5t3r.github.io/posts/article-weekly-31/)
 - [For Loop Comparison in Kotlin](https://bossm0n5t3r.github.io/posts/for-loop-comparison-in-kotlin/)
 - [Article Weekly, Issue 30](https://bossm0n5t3r.github.io/posts/article-weekly-30/)
-- [Article Weekly, Issue 29](https://bossm0n5t3r.github.io/posts/article-weekly-29/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
