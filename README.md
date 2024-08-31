@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Kotlin으로 유저 Input 테스트 코드 작성하기](https://bossm0n5t3r.github.io/posts/user-input-testing-in-kotlin/)
 - [[코틀린 아카데미: 핵심편] 후기](https://bossm0n5t3r.github.io/books/kotlin-essentials/)
 - [Article Weekly, Issue 34](https://bossm0n5t3r.github.io/posts/article-weekly-34/)
 - [Article Weekly, Issue 33](https://bossm0n5t3r.github.io/posts/article-weekly-33/)
 - [Article Weekly, Issue 32](https://bossm0n5t3r.github.io/posts/article-weekly-32/)
-- [Article Weekly, Issue 31](https://bossm0n5t3r.github.io/posts/article-weekly-31/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
