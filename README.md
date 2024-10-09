@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Article Weekly, Issue 40](https://bossm0n5t3r.github.io/posts/article-weekly-40/)
 - [[Spring AI] ChatClient Responses](https://bossm0n5t3r.github.io/posts/spring-ai-chat-client-responses/)
 - [Article Weekly, Issue 39](https://bossm0n5t3r.github.io/posts/article-weekly-39/)
 - [[Spring AI] ChatClient 생성하기](https://bossm0n5t3r.github.io/posts/spring-ai-creating-a-chat-client/)
 - [[Spring AI] 프로젝트 만들기](https://bossm0n5t3r.github.io/posts/spring-ai-project-setup/)
-- [Article Weekly, Issue 38](https://bossm0n5t3r.github.io/posts/article-weekly-38/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
