@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Article Weekly, Issue 52](https://bossm0n5t3r.github.io/posts/article-weekly-52/)
 - [Article Weekly, Issue 51](https://bossm0n5t3r.github.io/posts/article-weekly-51/)
 - [Article Weekly, Issue 50](https://bossm0n5t3r.github.io/posts/article-weekly-50/)
 - [Article Weekly, Issue 49](https://bossm0n5t3r.github.io/posts/article-weekly-49/)
 - [Article Weekly, Issue 48](https://bossm0n5t3r.github.io/posts/article-weekly-48/)
-- [Article Weekly, Issue 47](https://bossm0n5t3r.github.io/posts/article-weekly-47/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
