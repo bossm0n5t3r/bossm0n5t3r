@@ -22,11 +22,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [[그림과 실습으로 배우는 쿠버네티스 입문] 3장. 전체적인 설명](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-03/)
+- [[그림과 실습으로 배우는 쿠버네티스 입문] 2장. 쿠버네티스 클러스터 만들어 보기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-02/)
+- [[그림과 실습으로 배우는 쿠버네티스 입문] 1장. 도커 컨테이너 만들어 보기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-01/)
+- [그림과 실습으로 배우는 쿠버네티스 입문](https://bossm0n5t3r.github.io/books/bbf-k8s/)
 - [안티 AI 사용 패턴: 테스트 코드 작성](https://bossm0n5t3r.github.io/posts/anti-ai-pattern-test-code/)
-- [Gradle Version Catalog 완벽 가이드: 기본부터 팀 거버넌스까지](https://bossm0n5t3r.github.io/posts/gradle-version-catalog-guide/)
-- [Koog 라이브러리로 MCP 서버 연결하기: Kotlin 기반 AI 에이전트 개발 가이드](https://bossm0n5t3r.github.io/posts/koog-mcp-integration-guide/)
-- [How to Run Benchmarks with kotlinx.benchmark](https://bossm0n5t3r.github.io/posts/how-to-run-benchmarks-with-kotlinx-benchmark/)
-- [Ktor에서 Quartz scheduler 로 배치 작업 구현하기: 실전 가이드와 예제 코드](https://bossm0n5t3r.github.io/posts/ktor-batch-with-quartz/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
