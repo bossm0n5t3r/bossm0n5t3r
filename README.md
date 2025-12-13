@@ -41,6 +41,6 @@ val bossm0n5t3r = developer {
 ---
 
 ![](https://raw.githubusercontent.com/bossm0n5t3r/bossm0n5t3r/output/github-snake.svg)
-[![GitHub Streak](https://github-readme-streak-stats-nu-ebon.vercel.app?user=bossm0n5t3r&theme=catppuccin-mocha)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats-bossm0n5t3r.vercel.app?user=bossm0n5t3r&theme=catppuccin-mocha)](https://git.io/streak-stats)
 ![](https://leetcard.jacoblin.cool/bossm0n5t3r)
 ![](https://projecteuler.net/profile/bossm0n5t3r.png)
