@@ -31,11 +31,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [[그림과 실습으로 배우는 쿠버네티스 입문] 9장. 쿠버네티스의 구조와 아키텍처 이해하기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-09/)
+- [[그림과 실습으로 배우는 쿠버네티스 입문] 8장. 전체 복습: 애플리케이션 고치기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-08/)
+- [[그림과 실습으로 배우는 쿠버네티스 입문] 7장. 무상태 애플리케이션을 안전하게 만들기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-07/)
 - [[그림과 실습으로 배우는 쿠버네티스 입문] 6장. 쿠버네티스 리소스 만들고 망가뜨리기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-06/)
 - [[그림과 실습으로 배우는 쿠버네티스 입문] 5장. 트러블 슈팅 가이드와 kubectl 명령어 사용법](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-05/)
-- [Kind에서 로컬 Docker 이미지를 사용하는 방법 완벽 정리](https://bossm0n5t3r.github.io/posts/kind-local-docker-image/)
-- [[그림과 실습으로 배우는 쿠버네티스 입문] 4장. 쿠버네티스 클러스터 위에 애플리케이션 만들기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-04/)
-- [[그림과 실습으로 배우는 쿠버네티스 입문] 3장. 전체적인 설명](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-03/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
