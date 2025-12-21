@@ -31,11 +31,11 @@ val bossm0n5t3r = developer {
 ### Latest posts of [@bossm0n5t3r](https://github.com/bossm0n5t3r)
 
 <!-- BLOG-POST-LIST:START -->
+- [Kotlin 에서 Jackson 필드명 보존하기](https://bossm0n5t3r.github.io/posts/kotlin-jackson-fieldname-preservation/)
 - [[그림과 실습으로 배우는 쿠버네티스 입문] 9장. 쿠버네티스의 구조와 아키텍처 이해하기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-09/)
 - [[그림과 실습으로 배우는 쿠버네티스 입문] 8장. 전체 복습: 애플리케이션 고치기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-08/)
 - [[그림과 실습으로 배우는 쿠버네티스 입문] 7장. 무상태 애플리케이션을 안전하게 만들기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-07/)
 - [[그림과 실습으로 배우는 쿠버네티스 입문] 6장. 쿠버네티스 리소스 만들고 망가뜨리기](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-06/)
-- [[그림과 실습으로 배우는 쿠버네티스 입문] 5장. 트러블 슈팅 가이드와 kubectl 명령어 사용법](https://bossm0n5t3r.github.io/books/bbf-k8s-chapter-05/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
