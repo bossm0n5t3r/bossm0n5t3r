@@ -2,10 +2,10 @@ name: Setup GitHub Profile
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"
   push:
     branches:
-      - 'master'
+      - "master"
 permissions:
   contents: write
 
