@@ -12,7 +12,7 @@ val bossm0n5t3r = developer {
         "Testing",
     )
     links {
-        blog = "https://bossm0n5t3r.github.io/"
+        blog = "https://blog.m0n5t3r.com/"
     }
 }
 ```
@@ -31,7 +31,7 @@ defmodule Developer do
 
   @spec links() :: %{blog: String.t()}
   def links do
-    %{blog: "https://bossm0n5t3r.github.io/"}
+    %{blog: "https://blog.m0n5t3r.com/"}
   end
 
   @spec profile() :: %{about: map(), tech: [String.t()], links: map()}
