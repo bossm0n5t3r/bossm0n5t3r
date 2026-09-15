@@ -8,24 +8,58 @@ on:
     branches:
       - "master"
 
+concurrency:
+  group: setup-github-profile
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   setup:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
-          token: ${{ secrets.FOR_GITHUB_ACTIONS }}
-          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure Git
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "${{ vars.COMMITTER_EMAIL }}"
 
-          # Options
+      - name: Compute commit timestamp
+        id: commit_time
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          now = datetime.now(ZoneInfo("Asia/Seoul"))
+
+          commit_time = (
+              now + timedelta(minutes=15 - (now.minute % 15))
+          ).replace(
+              second=0,
+              microsecond=0,
+          )
+
+          with open(
+              os.environ["GITHUB_OUTPUT"],
+              "a",
+              encoding="utf-8",
+          ) as output:
+              output.write(f"value={commit_time.isoformat()}\n")
+          PY
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.FOR_GITHUB_ACTIONS }}
+          output_action: none
+          filename: github-metrics.svg
+
           user: ${{ github.repository_owner }}
           template: classic
           base: header
@@ -39,28 +73,64 @@ jobs:
           plugin_habits_charts: yes
           plugin_languages: yes
 
+      - name: Commit metrics
+        env:
+          GIT_AUTHOR_DATE: ${{ steps.commit_time.outputs.value }}
+          GIT_COMMITTER_DATE: ${{ steps.commit_time.outputs.value }}
+        run: |
+          mkdir -p assets
+
+          sudo cat /metrics_renders/github-metrics.svg \
+            > assets/github-metrics.svg
+
+          git add assets/github-metrics.svg
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update github-metrics.svg - [Skip GitHub Action]"
+            git push origin HEAD:master
+          fi
+
       - name: Update blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://blog.m0n5t3r.com/index.xml"
-          committer_username: ${{ github.repository_owner }}
-          committer_email: ${{ vars.COMMITTER_EMAIL }}
+          skip_commit: true
+          enable_keepalive: false
 
-      - name: generate github-contribution-grid-snake.svg
+      - name: Commit blog posts
+        env:
+          GIT_AUTHOR_DATE: ${{ steps.commit_time.outputs.value }}
+          GIT_COMMITTER_DATE: ${{ steps.commit_time.outputs.value }}
+        run: |
+          git add README.md
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Updated with the latest blog posts"
+            git push origin HEAD:master
+          fi
+
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+            assets/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Commit contribution snake
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_AUTHOR_DATE: ${{ steps.commit_time.outputs.value }}
+          GIT_COMMITTER_DATE: ${{ steps.commit_time.outputs.value }}
+        run: |
+          git add \
+            assets/github-snake.svg \
+            assets/github-snake-dark.svg \
+            assets/ocean.gif
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update contribution snake"
+            git push origin HEAD:master
+          fi
