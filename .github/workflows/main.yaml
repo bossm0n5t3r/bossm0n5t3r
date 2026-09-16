@@ -23,6 +23,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Setup uv
+        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        with:
+          python-version: "3.14"
+          enable-cache: true
+
       - name: Configure Git
         run: |
           git config user.name "${{ github.repository_owner }}"
@@ -30,28 +36,7 @@ jobs:
 
       - name: Compute commit timestamp
         id: commit_time
-        run: |
-          python - <<'PY'
-          import os
-          from datetime import datetime, timedelta
-          from zoneinfo import ZoneInfo
-
-          now = datetime.now(ZoneInfo("Asia/Seoul"))
-
-          commit_time = (
-              now + timedelta(minutes=15 - (now.minute % 15))
-          ).replace(
-              second=0,
-              microsecond=0,
-          )
-
-          with open(
-              os.environ["GITHUB_OUTPUT"],
-              "a",
-              encoding="utf-8",
-          ) as output:
-              output.write(f"value={commit_time.isoformat()}\n")
-          PY
+        run: uv run --frozen python scripts/compute_commit_timestamp.py
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
