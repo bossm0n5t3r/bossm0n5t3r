@@ -75,7 +75,6 @@ jobs:
         with:
           enable_keepalive: false
           feed_list: "https://blog.m0n5t3r.com/index.xml"
-          item_exec: "post.url = new URL(post.url, 'https://blog.m0n5t3r.com').toString()"
           skip_commit: true
 
       - name: Commit blog posts
