@@ -3,7 +3,7 @@ name: Setup GitHub Profile
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 0 * * *"
   push:
     branches:
       - "master"
@@ -73,9 +73,10 @@ jobs:
       - name: Update blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          enable_keepalive: false
           feed_list: "https://blog.m0n5t3r.com/index.xml"
           skip_commit: true
-          enable_keepalive: false
+          template: '[$title](https://blog.m0n5t3r.com$url)'
 
       - name: Commit blog posts
         env:
