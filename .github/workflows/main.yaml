@@ -76,7 +76,7 @@ jobs:
           enable_keepalive: false
           feed_list: "https://blog.m0n5t3r.com/index.xml"
           skip_commit: true
-          template: '[$title](https://blog.m0n5t3r.com$url)'
+          template: '$newline- [$title](https://blog.m0n5t3r.com$url)'
 
       - name: Commit blog posts
         env:
