@@ -66,7 +66,6 @@ bossm0n5t3r = Developer.profile()
 
 ---
 
-![](./assets/github-metrics.svg)
 ![](./assets/github-snake.svg)
 ![](https://github-readme-streak-stats-bossm0n5t3r.vercel.app?user=bossm0n5t3r&theme=catppuccin-mocha)
 ![](https://leetcard.jacoblin.cool/bossm0n5t3r)

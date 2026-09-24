@@ -39,6 +39,7 @@ jobs:
         run: uv run --frozen python scripts/compute_commit_timestamp.py
 
       - name: Generate metrics
+        if: false # 비활성화됨 — 재사용 시 이 줄 제거
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.FOR_GITHUB_ACTIONS }}
@@ -54,6 +55,7 @@ jobs:
           plugin_languages: yes
 
       - name: Commit metrics
+        if: false # 비활성화됨 — 재사용 시 이 줄 제거
         env:
           GIT_AUTHOR_DATE: ${{ steps.commit_time.outputs.value }}
           GIT_COMMITTER_DATE: ${{ steps.commit_time.outputs.value }}
