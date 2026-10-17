@@ -16,7 +16,7 @@ dependencies {
 
 java { toolchain { languageVersion = JavaLanguageVersion.of(libs.versions.jdk.get().toInt()) } }
 
-application { mainClass = "me.bossm0n5t3r.AppKt" }
+application { mainClass = "me.bossm0n5t3r.CommitTimestampKt" }
 
 tasks.named<Test>("test") { useJUnitPlatform() }
 

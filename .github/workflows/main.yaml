@@ -23,11 +23,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Setup uv
-        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+      - name: Setup Java
+        uses: actions/setup-java@v6.1.0
         with:
-          python-version: "3.14"
-          enable-cache: true
+          distribution: temurin
+          java-version: "25"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6.4.0
 
       - name: Configure Git
         run: |
@@ -36,7 +39,7 @@ jobs:
 
       - name: Compute commit timestamp
         id: commit_time
-        run: uv run --frozen python scripts/compute_commit_timestamp.py
+        run: ./gradlew --quiet --console=plain :app:run
 
       - name: Generate metrics
         if: false # 비활성화됨 — 재사용 시 이 줄 제거
