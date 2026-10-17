@@ -1,20 +1,23 @@
 ## About me 🧑‍💻
 
 ```kotlin
-val bossm0n5t3r = developer {
-    about {
-        name = "Ji-Hoon Kim"
-        role = Backend
+val bossm0n5t3r: Developer =
+    developer(
+        name = "Ji-Hoon Kim",
+        major = "Mathematics",
+    ) {
+        role = Role.BACKEND
+
+        techStack =
+            stack(
+                language = "Kotlin",
+                framework = "Spring",
+            )
+                .practice("Testing", "TDD", "Refactoring")
+                .withAI("LLM", "Local-first AI")
+
+        links = mapOf("Blog" to "https://blog.m0n5t3r.com/")
     }
-    tech(
-        "Kotlin",
-        "Spring",
-        "Testing",
-    )
-    links {
-        blog = "https://blog.m0n5t3r.com/"
-    }
-}
 ```
 
 ---
@@ -41,6 +44,3 @@ val bossm0n5t3r = developer {
 ---
 
 ![](https://raw.githubusercontent.com/bossm0n5t3r/bossm0n5t3r/output/github-snake.svg)
-![](https://github-readme-streak-stats-bossm0n5t3r.vercel.app?user=bossm0n5t3r&theme=catppuccin-mocha)
-![](https://leetcard.jacoblin.cool/bossm0n5t3r)
-![](https://projecteuler.net/profile/bossm0n5t3r.png)
