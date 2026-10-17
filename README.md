@@ -34,6 +34,11 @@ val bossm0n5t3r: Developer =
 ### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [&quot;그로스 해킹: 데이터로 증명하는 성장의 공식&quot;을 읽고](https://blog.m0n5t3r.com/books/growth-hacking/)
+- [KotlinLLM Playground 만들기: asLlm&lpar;&rpar;과 mockLlm&lpar;&rpar; 실험해보기](https://blog.m0n5t3r.com/posts/kotlinllm-playground/)
+- [나는 AI를 어떻게 쓰고 있는가](https://blog.m0n5t3r.com/posts/how-i-use-ai/)
+- [readability4k: Kotlin 으로 옮긴 Mozilla Readability](https://blog.m0n5t3r.com/projects/readability4k/)
+- [Git 커밋 메시지, 이제 diff만 보고 AI가 작성합니다: ACW 개발기](https://blog.m0n5t3r.com/projects/acw/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
