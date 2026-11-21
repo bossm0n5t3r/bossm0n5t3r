@@ -34,11 +34,11 @@ val bossm0n5t3r: Developer =
 ### Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Rust &lt;-&gt; Kotlin 타입 매핑 정리](https://blog.m0n5t3r.com/posts/rust-kotlin-type-mapping/)
 - [Kent Beck의 &#39;Software Engineering in the Age of AI&#39;를 보고](https://blog.m0n5t3r.com/posts/kent-beck-software-engineering-in-the-age-of-ai/)
 - [&quot;그로스 해킹: 데이터로 증명하는 성장의 공식&quot;을 읽고](https://blog.m0n5t3r.com/books/growth-hacking/)
 - [KotlinLLM Playground 만들기: asLlm&lpar;&rpar;과 mockLlm&lpar;&rpar; 실험해보기](https://blog.m0n5t3r.com/posts/kotlinllm-playground/)
 - [나는 AI를 어떻게 쓰고 있는가](https://blog.m0n5t3r.com/posts/how-i-use-ai/)
-- [readability4k: Kotlin 으로 옮긴 Mozilla Readability](https://blog.m0n5t3r.com/projects/readability4k/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
